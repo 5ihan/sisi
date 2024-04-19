@@ -26,33 +26,33 @@
             <hr class="sidebar-divider">
             <!-- Nav Item - Charts -->
             <li class="nav-item">
-                <a class="nav-link" href="{{url('kategoriA')}}">
+                <a class="nav-link" href="{{url('produkA')}}">
                     <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Charts</span></a>
+                    <span>produk</span></a>
             </li>
 
              <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="{{url('kategoriA')}}">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Tables</span></a>
+                    <span>kategori</span></a>
             </li>
 
              <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="{{url('pembelianA')}}">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Tables</span></a>
+                    <span>Pembelian</span></a>
             </li>
 
              <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="{{url('laporanA')}}">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Tables</span></a>
+                    <span>laporan</span></a>
             </li>
 
              <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="{{url('pelangganA')}}">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Tables</span></a>
+                    <span>pelanggan</span></a>
             </li>
 
             <!-- Nav Item - Tables -->
@@ -289,9 +289,4 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    <!-- Page Heading -->
-                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
-                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
-                                class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
-                    </div>
+
