@@ -1,7 +1,6 @@
 @extends('komponen.index')
 
 @section('content')
-  <!-- Page Header Start -->
     <div class="container-fluid bg-secondary mb-5">
         <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 300px">
             <h1 class="font-weight-semi-bold text-uppercase mb-3">Our Shop</h1>
@@ -12,22 +11,11 @@
             </div>
         </div>
     </div>
-    <!-- Page Header End -->
-     <!-- Shop Start -->
+
     <div class="container-fluid pt-5">
         <div class="row px-xl-5">
-            <!-- Shop Sidebar Start -->
             <div class="col-lg-3 col-md-12">
-                <!-- Price Start -->
-
-                <!-- Price End -->
-
-                <!-- Color Start -->
             </div>
-            <!-- Shop Sidebar End -->
-
-
-            <!-- Shop Product Start -->
             <div class="col-lg-9 col-md-12">
                 <div class="row pb-3">
                     <div class="col-12 pb-1">
@@ -231,5 +219,4 @@
                     </div>
                 </div>
             </div>
-            <!-- Shop Product End -->
 @endsection

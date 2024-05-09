@@ -7,6 +7,7 @@
 			<th>No</th>
 			<th>Nama</th>
 			<th>Kategori</th>
+            <th>Stok</th>
 			<th>Harga</th>
 			<th>Foto</th>
 			<th>Aksi</th>
@@ -18,19 +19,16 @@
 			<td></td>
 			<td></td>
 			<td></td>
-
-			<td>
-
-			</td>
-
-			<td>
-				<a href=""class= "btn btn-info" ><i class="lyphicon glyphicon-trash"></i>Hapus</a>
-				<a href=""class= "btn btn-info" ><i class="lyphicon glyphicon-edit"></i>Ubah</a>
-				<a href="" class= "btn btn-info" ><i class="glyphicon glyphicon-eye">Detail</a>
-			</td>
+			<td></td>
+			<td></td>
+            <td>
+                <a href=""class= "btn btn-info" ><i class="lyphicon glyphicon-trash"></i>Hapus</a>
+				<a href="{{ ('/ubahproduk') }}"class= "btn btn-info" ><i class="lyphicon glyphicon-edit"></i>Ubah</a>
+            </td>
 		</tr>
 
 	</tbody>
 </table>
+<a href="{{ url('/tambahproduk') }}" class="btn btn-primary">Tambah Produk</a>
 
 @endsection

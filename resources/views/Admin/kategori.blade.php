@@ -16,10 +16,11 @@
 			<td></td>
 			<td>
 				<a href="" class="btn btn-warning btn-sm">Hapus</a>
-				<a href="" class="btn btn-danger btn-sm">Ubah</a>
+				<a href="{{ url('/ubahkategori') }}" class="btn btn-danger btn-sm">Ubah</a>
 			</td>
 
 		</tr>
     </tbody>
-
+</table>
+<a href="{{ url('/tambahkategori') }}" class="btn btn-primary"> Tambah Kategori</a>
 @endsection

@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/welcome', function () {
+    return view('welcome');
+});
+
 Route::get('/', function () {
     return view('pelanggan.index');
 
@@ -83,4 +87,27 @@ Route::get('/pelangganA', function () {
     return view('admin.pelanggan');
 });
 
+Route::get('/tambahproduk', function () {
+    return view('admin.tambahproduk');
+});
 
+Route::get('/ubahproduk', function () {
+    return view('admin.ubahproduk');
+});
+
+Route::get('/detailproduk', function () {
+    return view('admin.detailproduk');
+});
+
+Route::get('/tambahkategori', function () {
+    return view('admin.tambahkategori');
+});
+
+
+Route::get('/ubahkategori', function () {
+    return view('admin.ubahkategori');
+});
+
+Route::get('/r', function () {
+    return view('pelanggan.riwayat');
+});
