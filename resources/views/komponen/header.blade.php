@@ -60,6 +60,10 @@
                     <i class="fas fa-clipboard-list text-primary"></i>
                     <span class="badge"></span>
                 </a>
+                <a href="{{url('/profile')}}" class="btn border">
+                    <i class="fas fa-user-circle text-primary"></i>
+                    <span class="badge"></span>
+                </a>
             </div>
         </div>
     </div>
